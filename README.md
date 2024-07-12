@@ -1,16 +1,21 @@
 # FinTracker
-I don't want to go broke
+
+# Description
+
+# Objectives
 
 ## Primary Features (not finalized)
-1. OCR for scanning various receipts and cheques
-2. Connect to bank account, I think banks have APIs we can use
-3. Create financial plans, weekly and monthly costs, etc.
-4. Track savings and set goals, budgets, different categories (visualize this information)
-   *Add More*
+1. User authentication and autherization
+2. Expense and Category Management
+   Users are able to delete, create, edit, and move expense entries and categories, and track expenses by date, category, and description. Supports easy upload of expense information through tesseractOCR scanning of receipts, cheques, etc.
+3. Financial planning
+   User is able to create financial goals, plans, and budgets for various categories. Information regarding these goals is reported to user
+4. Dashboard and Reporting:
+   Visual dashboard that provides overview of expenses, expense categories, and transactions.  Goals, budgets, and plans are displayed with graphs and charts to help visualize information for user. 
 
 ## Models, frameworks, libraries, and APIs
-Feature 1: OCR (could use kerasOCR, add more options)
 Backend: Node.js
 Frontend: React
-*Add More I'm dumb and can't think of stuff rn*
+DB: MySQL or PostgreSQL
+Other: tesseractOCR
 
