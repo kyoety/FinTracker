@@ -1,8 +1,8 @@
 # FinTracker
 
-# Description
+## Description
 
-# Objectives
+## Objectives
 
 ## Primary Features (not finalized)
 1. User authentication and autherization
