@@ -1,0 +1,19 @@
+### HomePage GET http://localhost:3333
+
+### Get Product All GET http://localhost:3333/expenses
+
+### Show Product GET http://localhost:3333/expenses/1
+
+### Create Product POST http://localhost:3333/expenses Content-Type: application/json
+
+{
+"description": "Milo", "brand": "what", "amount": -40, "date": 2000-05-23
+}
+
+### Update Product PATCH http://localhost:3333/expenses/7 Content-Type: application/json
+
+{
+"description": "Milo", "brand": "what", "amount": -40, "date": 2000-05-23
+}
+
+### Delete Product DELETE http://localhost:3333/products/1
