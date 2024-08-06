@@ -1,0 +1,29 @@
+Superstore
+
+Sales Receipt
+Superstore
+01/20/2023 04:12 PM
+
+TICKET #15504621
+Location Front Register
+Employee John
+ITEM # Price
+Specialized Kenevo Expert Carbon 1 $10999.99
+EG1C0043323511 $0.00
+SUBTOTAL $10999.99
+TAX $852.50
+ee TOTAL $11852.49
+
+Credit Card
+
+Card Num: 8909
+Entry EMV: $11852.49
+Approval: 17088
+
+Id# 1277
+
+RETURN POLICY
+NO REFUNDS OR EXCHANGES
+ON SALE MERCHANDISE
+7-DAY RETURN POLICY WITH
+ORIGINAL RECEIPT
