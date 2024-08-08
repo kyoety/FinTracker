@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+/* Here are Tailwind exports, where we can define the themes for everything */
 
 module.exports = {
   content: [
