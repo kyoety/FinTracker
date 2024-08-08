@@ -3,17 +3,20 @@ import axios from 'axios'
 import { Link, useNavigate } from 'react-router-dom'
 
 const AddExpense = () => {
+  //update to include image
   const [description, setDescription] = useState('')
   const [brand, setBrand] = useState('')
   const [amount, setAmount] = useState('')
   const navigate = useNavigate()
-
+  
+  //update to include image
   const saveExpense = async e => {
     e.preventDefault()
     await axios.post('http://localhost:3333/expense', { description: description, brand: brand, amount: parseInt(amount)})
     navigate('/')
   } 
 
+  //update to include image input, make sure the layout of this is same as the one in Edit.
   return (
     <div className="max-w-lg mx-auto my-10 bg-white p-8 rounded-lg sm:shadow sm:border">
       <h1>Add expense</h1>
