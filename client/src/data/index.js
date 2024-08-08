@@ -1,3 +1,5 @@
+  //You can ignore this, or if you want to explore you can try to use this for testing before the DB is set up :)
+
 const expensesData = [
     {
       id: 1,
