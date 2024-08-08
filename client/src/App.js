@@ -11,7 +11,7 @@ export default function App() {
     <div className="container w-4/6">
       <BrowserRouter>
         <Routes>
-    //All the routes to different components/pages are here
+    {/*All the routes to different components/pages are here*/}
             <Route path="/" element={<Main />}></Route>
             <Route path="/add" element={<AddExpense />}></Route>
             <Route path="/edit/:id" element={<EditExpense />}></Route>
