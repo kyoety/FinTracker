@@ -1,3 +1,5 @@
+//This is just for Prisma
+
 import { PrismaClient } from "@prisma/client";
 
 const globalForPrisma = global;
