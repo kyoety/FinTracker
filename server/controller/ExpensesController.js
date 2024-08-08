@@ -1,6 +1,8 @@
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
 
+//This contains all our get and responses (basically functions). You can update the create and edit expense to reflect changes to parameters.
+
 export const getExpenses = async (req, res) => {
     try {
         const response = await prisma.expense.findMany()
