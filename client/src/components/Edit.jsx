@@ -4,12 +4,14 @@ import { Link, useNavigate, useParams } from 'react-router-dom'
 
 
 const EditExpense = () => {
+  // add image const here
   const [description, setDescription] = useState('')
   const [brand, setBrand] = useState('')
   const [amount, setAmount] = useState('')
   const navigate = useNavigate()
   const { id } = useParams()
 
+  // update this to include something like setImage
   useEffect(() => {
     const getExpenseById = async () => {
       const response = await axios.get(`http://localhost:3333/expense/${id}`)
@@ -19,13 +21,15 @@ const EditExpense = () => {
     }
     getExpenseById()
   }, [id])
-
+  
+  // update this to include the image
   const updateExpense = async e => {
     e.preventDefault()
     await axios.patch(`http://localhost:3333/expense/${id}`, { description: description, brand: brand, amount: parseInt(amount)})
     navigate('/')
   }
-
+  
+  // update this to include the image file upload, you can follow the inputs for other fields
   return (
     <div className="max-w-lg mx-auto my-10 bg-white p-8 rounded-lg sm:shadow sm:border">
       <h1>Edit expense</h1>
