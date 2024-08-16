@@ -19,3 +19,8 @@ Frontend: React
 DB: MySQL or PostgreSQL
 Other: tesseractOCR
 
+## Developer tips
+To run on port 3000 for app.py: `flask run -h localhost -p 3000 `
+Run the react page first, then the flask port. 
+
+
